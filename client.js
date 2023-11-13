@@ -7,7 +7,11 @@
  *    hobbies
  */
 
-
+let hobbies = ['gaming', 'camping', 'travel', 'reading'];
+for (let i = 0; i < hobbies.length ; i++ ) {
+console.log (hobbies[i]);
+}
+console.log ('total hobbies' , hobbies.length)
 // Example output
 // 1. swimming
 // 2. board games
@@ -25,6 +29,16 @@
  * 4. Output the array and number of times teal was found
  */
 
+let colors = ['blue', 'red', 'teal', 'black', 'teal', 'teal', 'teal', 'teal', 'teal,'];
+let tealCount = 0;
+
+    for(let i =0; i <colors.length; i++)
+    if(colors[i] === 'teal'); {
+     tealCount++;
+
+console.log (colors);
+console.log("teal was found ", tealCount)}
+
 
 // Example output
 // green, red, teal, orange, teal
@@ -40,6 +54,7 @@
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+
 
 
 // Example output
